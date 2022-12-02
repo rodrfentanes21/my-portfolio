@@ -13,7 +13,7 @@ export default function Home() {
 
       <div className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen">
         <h1 className="text-6xl font-bold self-center">
-          Soon to be My Portfolio
+          Soon to be My Portfolio.
         </h1>
         <p>I hope to start working on this asap, on vacations maybe if I end up not being lazy</p>
       </div>
