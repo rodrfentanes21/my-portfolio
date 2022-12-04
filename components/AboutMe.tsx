@@ -32,9 +32,10 @@ export default function AboutMe() {
 
   return (
     <section
+      ref={ref}
       className="flex flex-row gap-5 justify-around items-center w-screen lg:w-full h-screen"
     >
-      <div ref={ref}>
+      <div>
         <motion.h2
           className="text-6xl font-bold"
           initial={{ x: "-100vw" }}
@@ -53,9 +54,9 @@ export default function AboutMe() {
           ratione, ea ipsum, eaque maiores nisi?
         </motion.p>
       </div>
-      <div>
+      <motion.div initial={{ opacity: 0 }} animate={animation2}>
         imagemzinha aqui pai
-      </div>
+      </motion.div>
     </section>
   );
 }

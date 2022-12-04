@@ -15,8 +15,7 @@ export default function Intro() {
         Hi There, I&apos;m <span>Rodrigo Fentanes</span>
       </h1>
       <p>
-        I hope to start working on this asap, on vacations maybe if I end up not
-        being lazy
+        Computer Science student and Full Stack Web Developer
       </p>
     </motion.section>
   );
