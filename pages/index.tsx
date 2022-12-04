@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Intro from "../components/Intro";
 
-
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -14,12 +14,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    
-        <Intro />
+      <Intro />
 
-      <section className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen">
+      <motion.section
+        className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          duration: 2,
+        }}
+      >
         <h1 className="text-6xl font-bold self-center">teste</h1>
-      </section>
+      </motion.section>
       <section className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen">
         <h1 className="text-6xl font-bold self-center">teste</h1>
       </section>
