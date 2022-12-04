@@ -13,7 +13,7 @@ export default function Header() {
           About Me
         </Link>
         <Link href="#projects" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
-          My Projects
+          Projects
         </Link>
         <Link href="#home" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
           Contact

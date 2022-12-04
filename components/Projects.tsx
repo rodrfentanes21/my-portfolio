@@ -37,14 +37,15 @@ export default function Projects() {
       className="flex flex-col items-center  justify-center w-screen lg:w-full"
       id="projects"
     >
-      <motion.h2
-        className="text-6xl font-bold"
+      <motion.div
+        className="text-6xl font-bold text-center"
         initial={{ x: "-100vw" }}
         animate={animation}
       >
-        My Projects
-      </motion.h2>
-      <motion.div initial={{ opacity: 0 }} animate={animation2} className='grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-10 py-20'>
+        <h2>My Projects</h2>
+        <p className="text-base pt-5 font-normal">Clicking on the card leads to the domain (if there&apos;s any), otherwise it will lead to the github repository.</p>
+      </motion.div>
+      <motion.div initial={{ opacity: 0 }} animate={animation2} className='grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-10 pt-20 pb-48 lg:pb-20'>
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
