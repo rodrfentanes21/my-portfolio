@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Intro from "../components/Intro";
+
+
 
 export default function Home() {
   return (
@@ -11,12 +14,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen">
-        <h1 className="text-6xl font-bold self-center">
-          Soon to be My Portfolio.
-        </h1>
-        <p>I hope to start working on this asap, on vacations maybe if I end up not being lazy</p>
-      </div>
+    
+        <Intro />
+
+      <section className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen">
+        <h1 className="text-6xl font-bold self-center">teste</h1>
+      </section>
+      <section className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen">
+        <h1 className="text-6xl font-bold self-center">teste</h1>
+      </section>
     </div>
   );
 }
