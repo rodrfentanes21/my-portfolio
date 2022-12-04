@@ -3,19 +3,19 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="flex justify-start h-16 items-center fixed w-screen lg:w-full bg-opacity-20 backdrop-blur-lg drop-shadow-sm z-10">
+    <header className="flex justify-start h-16 items-center fixed w-screen lg:w-full bg-opacity-20 backdrop-blur-lg drop-shadow-sm z-20">
       <div className="ml-5">Rodrigo Fentanes</div>
       <nav className="grow flex justify-center gap-10">
-        <Link href="#home" scroll={false}>
+        <Link href="#home" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
           Home
         </Link>
-        <Link href="#about-me" scroll={false}>
+        <Link href="#about-me" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
           About Me
         </Link>
-        <Link href="#projects" scroll={false}>
+        <Link href="#projects" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
           My Projects
         </Link>
-        <Link href="#home" scroll={false}>
+        <Link href="#home" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
           Contact
         </Link>
       </nav>

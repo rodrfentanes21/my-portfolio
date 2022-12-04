@@ -6,7 +6,7 @@ import { useAnimation } from "framer-motion";
 
 export default function AboutMe() {
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.3,
   });
   const animation = useAnimation();
   const animation2 = useAnimation();

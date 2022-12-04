@@ -13,7 +13,7 @@ export default function Intro() {
       }}
     >
       <h1 className="text-6xl font-bold self-center">
-        Hi There, I&apos;m <span>Rodrigo Fentanes</span>
+        Hi There, I&apos;m <span className="text-indigo-500">Rodrigo Fentanes</span>
       </h1>
       <p>
         Computer Science student and Full Stack Web Developer
