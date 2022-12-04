@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { useAnimation } from "framer-motion";
+import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   const { ref, inView } = useInView({
@@ -33,7 +34,7 @@ export default function Projects() {
   return (
     <section
       ref={ref}
-      className="flex flex-col items-center  justify-center w-screen lg:w-full h-screen"
+      className="flex flex-col items-center  justify-center w-screen lg:w-full"
       id="projects"
     >
       <motion.h2
@@ -43,13 +44,14 @@ export default function Projects() {
       >
         My Projects
       </motion.h2>
-
-      <div>
-        <motion.div initial={{ opacity: 0 }} animate={animation2}>
-          {" "}
-          sei la pai
-        </motion.div>
-      </div>
+      <motion.div initial={{ opacity: 0 }} animate={animation2} className='grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-10 py-20'>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </motion.div>
     </section>
   );
 }

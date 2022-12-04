@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Intro() {
   return (
     <motion.section
-      className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen"
+      className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen text-center lg:text-start"
       id="home"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

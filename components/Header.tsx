@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="flex justify-start h-16 items-center fixed w-screen lg:w-full bg-opacity-20 backdrop-blur-lg drop-shadow-sm z-20">
       <div className="ml-5">Rodrigo Fentanes</div>
-      <nav className="grow flex justify-center gap-10">
+      <nav className="grow hidden lg:flex justify-center gap-10">
         <Link href="#home" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
           Home
         </Link>
