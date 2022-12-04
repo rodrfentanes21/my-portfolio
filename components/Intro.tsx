@@ -16,7 +16,7 @@ export default function Intro() {
         Hi There, I&apos;m <span className="text-indigo-500">Rodrigo Fentanes</span>
       </h1>
       <p>
-        Computer Science student and Full Stack Web Developer
+        Computer Science Student and Full Stack Web Developer
       </p>
     </motion.section>
   );
