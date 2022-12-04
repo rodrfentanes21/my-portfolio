@@ -24,6 +24,7 @@ export default function AboutMe() {
       animation2.start({
         opacity: 1,
         transition: {
+          delay: 1,
           duration: 1,
         },
       });
@@ -34,6 +35,7 @@ export default function AboutMe() {
     <section
       ref={ref}
       className="flex flex-row gap-5 justify-around items-center w-screen lg:w-full h-screen"
+      id="about-me"
     >
       <div>
         <motion.h2

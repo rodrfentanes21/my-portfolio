@@ -5,6 +5,7 @@ export default function Intro() {
   return (
     <motion.section
       className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen"
+      id="home"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{
