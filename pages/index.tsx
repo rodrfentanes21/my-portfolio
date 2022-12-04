@@ -2,10 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Intro from "../components/Intro";
-
-import { motion } from "framer-motion";
+import AboutMe from "../components/AboutMe";
 
 export default function Home() {
+
   return (
     <div>
       <Head>
@@ -15,20 +15,7 @@ export default function Home() {
       </Head>
 
       <Intro />
-
-      <motion.section
-        className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{
-          duration: 2,
-        }}
-      >
-        <h1 className="text-6xl font-bold self-center">teste</h1>
-      </motion.section>
-      <section className="flex flex-col gap-5 justify-center items-center w-screen lg:w-full h-screen">
-        <h1 className="text-6xl font-bold self-center">teste</h1>
-      </section>
+      <AboutMe />
     </div>
   );
 }
