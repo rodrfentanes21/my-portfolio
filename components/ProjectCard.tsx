@@ -7,11 +7,11 @@ export default function ProjectCard() {
       <div className={styles.card}>
         <div className={styles.cardgradient}></div>
         <div className={styles.cardcontent}>
-            <h3 className=" font-weight-bold text-xl">
+            <h3 className=" font-weight-bold text-2xl">
                 Card Title
             </h3>
-            <p className=" opacity-0 group-hover:opacity-100">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, odio iure totam ullam rem sapiente pariatur aliquam minima 
+            <p className=" opacity-0 group-hover:opacity-100 text-sm lg:text-base">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, odio iure totam ullam 
             </p>
         </div>
       </div>
