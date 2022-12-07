@@ -34,7 +34,7 @@ export default function Projects() {
   return (
     <section
       ref={ref}
-      className="flex flex-col items-center  justify-center w-screen lg:w-full"
+      className="flex flex-col items-center  justify-center w-screen lg:w-full pt-20"
       id="projects"
     >
       <motion.div
