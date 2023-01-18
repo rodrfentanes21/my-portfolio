@@ -12,6 +12,8 @@ npm install -D tailwindcss postcss autoprefixer
 npm install framer-motion
 ```
 
+then:
+
 ```bash
 npm run dev
 # or
