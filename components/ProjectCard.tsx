@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/Card.module.css";
-import Link from "next/link";
 
 export default function ProjectCard(props: any) {
   return (
