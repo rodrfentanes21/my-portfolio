@@ -43,15 +43,50 @@ export default function Projects() {
         animate={animation}
       >
         <h2>My Projects</h2>
-        <p className="text-base pt-5 font-normal">Clicking on the card leads to the domain (if there&apos;s any), otherwise it will lead to the github repository.</p>
+        <p className="text-base pt-5 font-normal">
+          Some personal and professional projects I made during my time as a
+          developer.
+        </p>
       </motion.div>
-      <motion.div initial={{ opacity: 0 }} animate={animation2} className='grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-10 pt-20 pb-48 lg:pb-20'>
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={animation2}
+        className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-10 pt-20 pb-48 lg:pb-20"
+      >
+        <ProjectCard
+          title="Privilege Website"
+          language="React"
+          content="Responsive website developed for Privilege Construtora, a brazilian construction company, my first professional paid project, 
+          (since this is a professional project made for a third-party company, they may not want to have the code exposed publically, therefore the repository is private and will not be available here)."
+          mainLink="https://privilege.vercel.app/"
+        />
+        <ProjectCard
+          title="Next Todo App"
+          language="React"
+          content="This is an unfinished project. My first experience using Next.js and Vercel, Good project to learn the fundamentals of react and some Next.js exclusive functionalities, also helped me get used to TailwindCSS"
+          mainLink="https://nextjs-todo-six-pi.vercel.app/"
+          gitHubLink="https://github.com/rodrfentanes21/nextjs-todo"
+        />
+        <ProjectCard
+          title="Login System"
+          language="Angular"
+          content="FullStack Login page, made using Angular, Bootstrap, Node.js, Express, Mongoose and MongoDB. This Project is divided in 2 repos (front and backend)"
+          gitHubLink="https://github.com/rodrfentanes21/cadastro_wevo"
+          gitHubLink2="https://github.com/rodrfentanes21/backend_wevo"
+        />
+        <ProjectCard
+          title="Generic Landing Page"
+          language="React"
+          content="Generic T-Shirt Landing page, my first project using TailwindCSS, deployed with Firebase"
+          mainLink="https://tailwindproductpage.web.app"
+          gitHubLink="https://github.com/rodrfentanes21/tailwindproj"
+        />
+        <ProjectCard
+          title="freeCodeCamp Projects"
+          language="Vanilla HTML and CSS"
+          content="Projects made in order to get the freeCodeCamp Responsive Web Design Certification."
+          gitHubLink="https://github.com/rodrfentanes21/fccprojects"
+        />
       </motion.div>
     </section>
   );
