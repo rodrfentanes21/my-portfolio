@@ -91,7 +91,7 @@ export default function Projects() {
           title="This Portfolio"
           language="React"
           content="Portfolio made using Next.js, Tailwind, Framer Motion, and a bit of pure CSS"
-          gitHubLink="https://github.com/rodrfentanes21/fccprojects"
+          gitHubLink="https://github.com/rodrfentanes21/my-portfolio"
         />
       </motion.div>
     </section>
