@@ -51,10 +51,10 @@ export default function AboutMe() {
           initial={{ opacity: 0 }}
           animate={animation2}
         >
-          22 years old, ease in interpersonal relationships, proactivity and
-          willingness to face new challenges. Dedicated and extremely creative
-          professional, always seeking to learn new technologies and improve
-          both as an individual and as a professional, good at problem solving.
+          22 years old, proactive and willing to face new challenges.
+          Dedicated and extremely creative professional, always seeking to learn
+          new technologies and improve both as an individual and as a
+          professional, good at problem solving.
         </motion.p>
       </div>
       <motion.div
