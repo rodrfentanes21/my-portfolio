@@ -3,7 +3,7 @@ import styles from "../styles/Card.module.css";
 
 export default function ProjectCard(props: any) {
   return (
-    <a className="group" href={props.Link} target="__blank">
+    <div className="group">
       <div className={styles.card}>
         <div className={styles.cardgradient}></div>
         <div className={styles.cardcontent}>
@@ -78,6 +78,6 @@ export default function ProjectCard(props: any) {
           </div>
         </div>
       </div>
-    </a>
+    </div>
   );
 }

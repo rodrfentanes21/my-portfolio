@@ -58,14 +58,12 @@ export default function Projects() {
           language="React"
           content="Responsive website developed for Privilege Construtora, a brazilian construction company, my first professional paid project, 
           (since this is a professional project made for a third-party company, they may not want to have the code exposed publically, therefore the repository is private and will not be available here)."
-          Link="https://privilege.vercel.app/"
           mainLink="https://privilege.vercel.app/"
         />
         <ProjectCard
           title="Next.js Todo App"
           language="React"
           content="This is an unfinished project. My first experience using Next.js and Vercel, Good project to learn the fundamentals of react and some Next.js exclusive functionalities, also helped me get used to TailwindCSS"
-          Link="https://nextjs-todo-six-pi.vercel.app/"
           mainLink="https://nextjs-todo-six-pi.vercel.app/"
           gitHubLink="https://github.com/rodrfentanes21/nextjs-todo"
         />
@@ -73,7 +71,6 @@ export default function Projects() {
           title="Login System"
           language="Angular"
           content="FullStack Login page, made using Angular, Bootstrap, Node.js, Express, Mongoose and MongoDB. This Project is divided in 2 repos (front and backend)"
-          Link="https://github.com/rodrfentanes21/cadastro_wevo"
           gitHubLink="https://github.com/rodrfentanes21/cadastro_wevo"
           gitHubLink2="https://github.com/rodrfentanes21/backend_wevo"
         />
@@ -81,7 +78,6 @@ export default function Projects() {
           title="Generic Landing Page"
           language="React"
           content="Generic T-Shirt Landing page, my first project using TailwindCSS, deployed with Firebase"
-          Link="https://tailwindproductpage.web.app"
           mainLink="https://tailwindproductpage.web.app"
           gitHubLink="https://github.com/rodrfentanes21/tailwindproj"
         />
@@ -89,7 +85,12 @@ export default function Projects() {
           title="freeCodeCamp Projects"
           language="Vanilla HTML and CSS"
           content="Projects made in order to get the freeCodeCamp Responsive Web Design Certification."
-          Link="https://github.com/rodrfentanes21/fccprojects"
+          gitHubLink="https://github.com/rodrfentanes21/fccprojects"
+        />
+        <ProjectCard
+          title="This Portfolio"
+          language="React"
+          content="Portfolio made using Next.js, Tailwind, Framer Motion, and a bit of pure CSS"
           gitHubLink="https://github.com/rodrfentanes21/fccprojects"
         />
       </motion.div>
