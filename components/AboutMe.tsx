@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { useAnimation } from "framer-motion";
+import Image from "next/image";
 
 export default function AboutMe() {
   const { ref, inView } = useInView({
@@ -50,14 +51,20 @@ export default function AboutMe() {
           initial={{ opacity: 0 }}
           animate={animation2}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-          minima animi repellat deserunt cupiditate voluptatibus! Dolorem
-          deserunt et provident repudiandae sed sint consectetur dignissimos
-          ratione, ea ipsum, eaque maiores nisi?
+          22 years old, ease in interpersonal relationships, proactivity and
+          willingness to face new challenges. Dedicated and extremely creative
+          professional, always seeking to learn new technologies and improve
+          both as an individual and as a professional, good at problem solving.
         </motion.p>
       </div>
-      <motion.div initial={{ opacity: 0 }} animate={animation2}>
-        imagemzinha aqui pai
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={animation2}
+        className=" bg-gradient-to-br from-[#4e92f5] to-[#38bdf8] rounded-full w-96 aspect-square grid place-items-center"
+      >
+        <div className=" rounded-full w-[98%] aspect-square grid place-items-center bg-black">
+          profile picture
+        </div>
       </motion.div>
     </section>
   );
