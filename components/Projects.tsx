@@ -57,7 +57,7 @@ export default function Projects() {
           title="Privilege Website"
           language="React"
           content="Responsive website developed for Privilege Construtora, a brazilian construction company, my first professional paid project, 
-          (since this is a professional project made for a third-party company, they may not want to have the code exposed publically, therefore the repository is private and will not be available here)."
+          (this is a private repository, so only link to the site will be available)."
           mainLink="https://privilege.vercel.app/"
         />
         <ProjectCard

@@ -1,0 +1,41 @@
+.card {
+  aspect-ratio: 1 / 1;
+  border: 1px solid;
+  cursor: pointer;
+  position: relative;
+  width: 18rem;
+  border-radius: 0.75rem;
+}
+
+.card:hover > .cardgradient {
+  background-position: 100% 100%;
+}
+
+.cardgradient {
+  background: linear-gradient(
+    130deg,
+    transparent 0% 33%,
+    rgb(99 102 241) 66%,
+    #4e92f5 83.5%,
+    #38bdf8 100%
+  );
+  background-position: 0% 0%;
+  background-size: 300% 300%;
+  content: "";
+  height: 100%;
+  left: 0px;
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  transition: background-position 350ms ease, transform 350ms ease;
+  width: 100%;
+  z-index: 2;
+  border-radius: 0.75rem;
+}
+
+.cardcontent {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}

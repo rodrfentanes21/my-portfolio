@@ -9,7 +9,7 @@ export default function ProjectCard(props: any) {
         <div className={styles.cardcontent}>
           <h3 className=" font-bold text-2xl">{props.title}</h3>
           <h4 className=" font-thin text-lg">{props.language}</h4>
-          <p className="opacity-0 transform ease-in-out transition duration-500 group-hover:opacity-100 text-sm lg:text-base mt-">
+          <p className="opacity-0 transform ease-in-out transition duration-500 group-hover:opacity-100 text-xs lg:text-base mt-">
             {props.content}
           </p>
           <div className="absolute w-4/5 left-5 bottom-5 flex gap-4">

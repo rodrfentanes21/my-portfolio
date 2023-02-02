@@ -60,7 +60,7 @@ export default function AboutMe() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={animation2}
-        className=" bg-gradient-to-br from-[#6366f1] via-[#4e92f5] to-[#38bdf8] rounded-full w-96 aspect-square grid place-items-center"
+        className=" bg-gradient-to-br from-[#6366f1] via-[#4e92f5] to-[#38bdf8] rounded-full w-72 lg:w-96 aspect-square grid place-items-center"
       >
         <div className=" rounded-full w-[98%] aspect-square grid place-items-center bg-black text-center">
           i don&#39;t have any good pictures that fit <br/> here but it was supposed to be a pfp
