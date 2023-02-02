@@ -71,8 +71,8 @@ export default function Projects() {
           title="Login System"
           language="Angular"
           content="FullStack Login page, made using Angular, Bootstrap, Node.js, Express, Mongoose and MongoDB. This Project is divided in 2 repos (front and backend)"
-          gitHubLink="https://github.com/rodrfentanes21/cadastro_wevo"
-          gitHubLink2="https://github.com/rodrfentanes21/backend_wevo"
+          frontLink="https://github.com/rodrfentanes21/cadastro_wevo"
+          backLink="https://github.com/rodrfentanes21/backend_wevo"
         />
         <ProjectCard
           title="Generic Landing Page"
