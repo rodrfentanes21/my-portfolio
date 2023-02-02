@@ -12,7 +12,7 @@ export default function Intro() {
         duration: 2,
       }}
     >
-      <h1 className="text-6xl font-bold self-center">
+      <h1 className="text-6xl font-bold self-center text-center">
         Hi There, I&apos;m <span className="text-indigo-500">Rodrigo Fentanes</span>
       </h1>
       <p>
