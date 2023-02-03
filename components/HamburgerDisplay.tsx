@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function HamburgerDisplay(props: any) {
@@ -19,6 +20,40 @@ export default function HamburgerDisplay(props: any) {
             <path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z" />
           </svg>
         </button>
+      </div>
+      <div className="flex flex-col justify-center w-screen h-screen items-center gap-20">
+        <Link
+          onClick={() => props.setTrigger(false)}
+          href="#home"
+          scroll={false}
+          className="border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500"
+        >
+          Home
+        </Link>
+        <Link
+          onClick={() => props.setTrigger(false)}
+          href="#about-me"
+          scroll={false}
+          className="border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500"
+        >
+          About Me
+        </Link>
+        <Link
+          onClick={() => props.setTrigger(false)}
+          href="#projects"
+          scroll={false}
+          className="border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500"
+        >
+          Projects
+        </Link>
+        <Link
+          onClick={() => props.setTrigger(false)}
+          href="#contact"
+          scroll={false}
+          className="border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500"
+        >
+          Contact
+        </Link>
       </div>
     </div>
   ) : (
