@@ -1,8 +1,6 @@
 # Getting Started
 
-First, run the development server:
-
-install dependencies:
+To run this locally, first, install dependencies:
 
 ```bash
 npm i next
