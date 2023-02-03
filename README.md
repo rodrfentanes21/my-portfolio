@@ -44,4 +44,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## todo
 
-- hamburguer menu for smaller screens
+- add real text to about me (pain).
