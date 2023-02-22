@@ -35,7 +35,7 @@ export default function AboutMe() {
   return (
     <section
       ref={ref}
-      className="flex flex-col lg:flex-row gap-5 justify-around items-center w-screen lg:w-full h-screen text-center lg:text-start"
+      className="flex flex-col lg:flex-row gap-5 justify-around items-center w-screen lg:w-full h-screen text-center lg:text-start mb-20 lg:mb-0"
       id="about-me"
     >
       <div>
