@@ -57,19 +57,23 @@ export default function AboutMe() {
           asked for me to learn a little about SQL in order to help him with a
           new task he was having a hard time with at his job. Since then, I have
           expanded my knowledge and skills in various programming languages and
-          technologies.<br/>One thing I love about software engineering is the
-          collaborative aspect. I am a strong believer in the importance of teamwork
-          and I truly enjoy working in a team environment. I find that
-          collaborating with others brings fresh perspectives, challenges my
-          ideas, and ultimately leads to better outcomes. As a self-taught
-          programmer, I believe I have developed strong problem-solving skills
-          and have become a fast learner. Although my academic studies have been
-          an essential part of my growth as a software engineer, I believe that
-          my self-taught approach has given me the ability to be adaptable,
-          innovative, and resourceful.<br/>Please take a look at my portfolio to get
-          a better idea of the projects I have worked on and the skills I have
-          developed. I am always eager to take on new challenges and work on
-          exciting projects with other passionate developers.
+          technologies.
+          <br />
+          One thing I love about software engineering is the collaborative
+          aspect. I am a strong believer in the importance of teamwork and I
+          truly enjoy working in a team environment. I find that collaborating
+          with others brings fresh perspectives, challenges my ideas, and
+          ultimately leads to better outcomes. As a self-taught programmer, I
+          believe I have developed strong problem-solving skills and have become
+          a fast learner. Although my academic studies have been an essential
+          part of my growth as a software engineer, I believe that my
+          self-taught approach has given me the ability to be adaptable,
+          innovative, and resourceful.
+          <br />
+          Please take a look at my portfolio to get a better idea of the
+          projects I have worked on and the skills I have developed. I am always
+          eager to take on new challenges and work on exciting projects with
+          other passionate developers.
         </motion.p>
       </div>
       <motion.div
