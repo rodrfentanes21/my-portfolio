@@ -47,14 +47,29 @@ export default function AboutMe() {
           About Me
         </motion.h2>
         <motion.p
-          className="w-96"
+          className="w-96 lg:w-[40vmax]"
           initial={{ opacity: 0 }}
           animate={animation2}
         >
-          22 years old, proactive and willing to face new challenges.
-          Dedicated and extremely creative professional, always seeking to learn
-          new technologies and improve both as an individual and as a
-          professional, good at problem solving.
+          I am a 22-year-old software engineer currently on the 5th semester of
+          my Computer Science Major. My first programming experience was at the
+          age of 15, when, since I enjoyed a lot using the computer, my father
+          asked for me to learn a little about SQL in order to help him with a
+          new task he was having a hard time with at his job. Since then, I have
+          expanded my knowledge and skills in various programming languages and
+          technologies.<br/>One thing I love about software engineering is the
+          collaborative aspect. I am a strong believer in the importance of teamwork
+          and I truly enjoy working in a team environment. I find that
+          collaborating with others brings fresh perspectives, challenges my
+          ideas, and ultimately leads to better outcomes. As a self-taught
+          programmer, I believe I have developed strong problem-solving skills
+          and have become a fast learner. Although my academic studies have been
+          an essential part of my growth as a software engineer, I believe that
+          my self-taught approach has given me the ability to be adaptable,
+          innovative, and resourceful.<br/>Please take a look at my portfolio to get
+          a better idea of the projects I have worked on and the skills I have
+          developed. I am always eager to take on new challenges and work on
+          exciting projects with other passionate developers.
         </motion.p>
       </div>
       <motion.div
@@ -63,7 +78,8 @@ export default function AboutMe() {
         className=" bg-gradient-to-br from-[#6366f1] via-[#4e92f5] to-[#38bdf8] rounded-full w-72 lg:w-96 aspect-square grid place-items-center"
       >
         <div className=" rounded-full w-[98%] aspect-square grid place-items-center bg-black text-center">
-          i don&#39;t have any good pictures that fit <br/> here but it was supposed to be a pfp
+          i don&#39;t have any good pictures that fit <br /> here but it was
+          supposed to be a pfp here.
         </div>
       </motion.div>
     </section>
