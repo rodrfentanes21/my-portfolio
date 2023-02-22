@@ -35,7 +35,7 @@ export default function AboutMe() {
   return (
     <section
       ref={ref}
-      className="flex flex-col lg:flex-row gap-5 justify-around items-center w-screen lg:w-full h-screen text-center lg:text-start mb-20 lg:mb-0"
+      className="flex flex-col lg:flex-row gap-5 justify-around items-center w-screen lg:w-full h-screen text-center lg:text-start my-32 lg:my-0"
       id="about-me"
     >
       <div>
@@ -47,7 +47,7 @@ export default function AboutMe() {
           About Me
         </motion.h2>
         <motion.p
-          className="w-96 lg:w-[40vmax]"
+          className="w-96 lg:w-[40vmax] text-sm lg:text-base"
           initial={{ opacity: 0 }}
           animate={animation2}
         >
