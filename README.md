@@ -3,10 +3,7 @@
 To run this locally, first, install dependencies:
 
 ```bash
-npm i next
-npm install -D tailwindcss postcss autoprefixer
-npm install framer-motion
-npm install @svgr/webpack --save-dev
+npm i 
 ```
 
 then:
