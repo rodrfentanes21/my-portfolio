@@ -13,7 +13,7 @@ export default function Intro() {
       }}
     >
       <h1 className="text-6xl font-bold self-center text-center">
-        Hi There, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-indigo-700">Rodrigo Fentanes</span>
+        Hi There, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] via-[#4e92f5] to-[#38bdf8]">Rodrigo Fentanes</span>
       </h1>
       <p>
         Computer Science Student and Full Stack Web Developer
