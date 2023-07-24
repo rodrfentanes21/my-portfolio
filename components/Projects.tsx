@@ -70,7 +70,7 @@ export default function Projects() {
         <ProjectCard
           title="Login System"
           language="Angular"
-          content="FullStack Login page, made using Angular, Bootstrap, Node.js, Express, Mongoose and MongoDB. The pSroject is divided in 2 repos (front and backend). This project was made as part of a selective process with a deadline of 2 days, and didn't even get an email answer turning me down, if you are a recruiter, don't be like those guys."
+          content="FullStack Login page, made using Angular, Bootstrap, Node.js, Express, Mongoose and MongoDB. The project is divided in 2 repos (front and backend). This project was made as part of a selective process with a deadline of 2 days, and didn't even get an email answer turning me down, if you are a recruiter, don't be like those guys."
           frontLink="https://github.com/rodrfentanes21/cadastro_wevo"
           backLink="https://github.com/rodrfentanes21/backend_wevo"
         />
