@@ -51,7 +51,7 @@ export default function AboutMe() {
           initial={{ opacity: 0 }}
           animate={animation2}
         >
-          I am a 22-year-old software engineer currently on the 5th semester of
+          I am a 22-year-old software engineer currently on the 6th semester of
           my Computer Science Major. My first programming experience was at the
           age of 15, when, since I enjoyed a lot using the computer, my father
           asked for me to learn a little about SQL in order to help him with a
