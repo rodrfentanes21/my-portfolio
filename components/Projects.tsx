@@ -60,6 +60,12 @@ export default function Projects() {
           (this is a private repository, so only link to the site will be available)."
           mainLink="https://privilege.vercel.app/"
         />
+          <ProjectCard
+            title="Link Dashboard"
+            language="React"
+            content="Responsive Dashboard made to visualize dynamic data from a firebase database, professional paid project that unfortunately i can't show the repository or the site, so i will be linking a collection of prints with dummy data"
+            frontLink="https://imgur.com/a/M1KF9xP"
+          />
         <ProjectCard
           title="Next.js Todo App"
           language="React"
@@ -73,13 +79,6 @@ export default function Projects() {
           content="FullStack Login page, made using Angular, Bootstrap, Node.js, Express, Mongoose and MongoDB. The project is divided in 2 repos (front and backend). This project was made as part of a selective process with a deadline of 2 days, and didn't even get an email answer turning me down, if you are a recruiter, don't be like those guys."
           frontLink="https://github.com/rodrfentanes21/cadastro_wevo"
           backLink="https://github.com/rodrfentanes21/backend_wevo"
-        />
-        <ProjectCard
-          title="Generic Landing Page"
-          language="React"
-          content="Generic T-Shirt Landing page, my first project using TailwindCSS, deployed with Firebase"
-          mainLink="https://tailwindproductpage.web.app"
-          gitHubLink="https://github.com/rodrfentanes21/tailwindproj"
         />
         <ProjectCard
           title="freeCodeCamp Projects"

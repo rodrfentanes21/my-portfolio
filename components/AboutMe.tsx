@@ -76,16 +76,16 @@ export default function AboutMe() {
           other passionate developers.
         </motion.p>
       </div>
-      <motion.div
+      <motion.a
         initial={{ opacity: 0 }}
+        target="__blank" href="https://github.com/rodrfentanes21"
         animate={animation2}
         className=" bg-gradient-to-br from-[#6366f1] via-[#4e92f5] to-[#38bdf8] rounded-full w-72 lg:w-96 aspect-square grid place-items-center"
       >
-        <div className=" rounded-full w-[98%] aspect-square grid place-items-center bg-black text-center">
-          i don&#39;t have any good pictures that fit <br /> here but it was
-          supposed to be a pfp here.
-        </div>
-      </motion.div>
+        <p className=" rounded-full w-[98%] aspect-square grid place-items-center bg-black text-center">
+          click here to see my GitHub
+        </p>
+      </motion.a>
     </section>
   );
 }
