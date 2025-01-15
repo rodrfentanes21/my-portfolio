@@ -7,18 +7,34 @@ export default function Header() {
 
   return (
     <header className="flex justify-between lg:justify-start h-16 items-center fixed w-screen lg:w-full bg-opacity-20 backdrop-blur-lg drop-shadow-sm z-20">
-      <div className="ml-5">Rodrigo Fentanes</div>
+      <div className="ml-5">Rodrigo Touriño</div>
       <nav className="grow hidden lg:flex justify-center gap-10">
-        <Link href="#home" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
+        <Link
+          href="#home"
+          scroll={false}
+          className="border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500"
+        >
           Home
         </Link>
-        <Link href="#about-me" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
+        <Link
+          href="#about-me"
+          scroll={false}
+          className="border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500"
+        >
           About Me
         </Link>
-        <Link href="#projects" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
+        <Link
+          href="#projects"
+          scroll={false}
+          className="border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500"
+        >
           Projects
         </Link>
-        <Link href="#contact" scroll={false} className='border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500'>
+        <Link
+          href="#contact"
+          scroll={false}
+          className="border-b-2 border-transparent hover:border-b-2 hover:border-indigo-500  hover:text-indigo-500"
+        >
           Contact
         </Link>
       </nav>
@@ -38,7 +54,7 @@ export default function Header() {
           <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
         </svg>
       </button>
-      <HamburgerDisplay trigger={isNavMenu} setTrigger={setNavMenu}/>
+      <HamburgerDisplay trigger={isNavMenu} setTrigger={setNavMenu} />
     </header>
   );
 }

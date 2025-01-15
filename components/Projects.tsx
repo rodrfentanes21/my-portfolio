@@ -54,18 +54,23 @@ export default function Projects() {
         className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-10 pt-20 pb-48 lg:pb-20"
       >
         <ProjectCard
+          title="My Tenure at Sofex"
+          language="React Native, Django, NestJS, NextJS"
+          content="Even though i can't show the code, i would like to share my experience working at Sofex, a brazilian company that provides software solutions for the medical market, i worked there as a fullstack developer for about 1 year and a half, i learned a lot of things there, and i'm very grateful for the experience."
+        />
+        <ProjectCard
           title="Privilege Website"
           language="React"
           content="Responsive website developed for Privilege Construtora, a brazilian construction company, my first professional paid project, 
           (this is a private repository, so only link to the site will be available)."
           mainLink="https://privilege.vercel.app/"
         />
-          <ProjectCard
-            title="Link Dashboard"
-            language="React"
-            content="Responsive Dashboard made to visualize dynamic data from a firebase database, professional paid project that unfortunately i can't show the repository or the site, so i will be linking a collection of prints with dummy data"
-            frontLink="https://imgur.com/a/M1KF9xP"
-          />
+        <ProjectCard
+          title="Link Dashboard"
+          language="React"
+          content="Responsive Dashboard made to visualize dynamic data from a firebase database, professional paid project that unfortunately i can't show the repository or the site, so i will be linking a collection of prints with dummy data"
+          frontLink="https://imgur.com/a/M1KF9xP"
+        />
         <ProjectCard
           title="Next.js Todo App"
           language="React"
@@ -76,15 +81,9 @@ export default function Projects() {
         <ProjectCard
           title="Login System"
           language="Angular"
-          content="FullStack Login page, made using Angular, Bootstrap, Node.js, Express, Mongoose and MongoDB. The project is divided in 2 repos (front and backend). This project was made as part of a selective process with a deadline of 2 days, and didn't even get an email answer turning me down, if you are a recruiter, don't be like those guys."
+          content="FullStack Login page, made using Angular, Bootstrap, Node.js, Express, Mongoose and MongoDB. The project is divided in 2 repos (front and backend). This project was made as part of a selective process with a deadline of 2 days, which taking into consideration my lack of experience at the time, i consider a good result."
           frontLink="https://github.com/rodrfentanes21/cadastro_wevo"
           backLink="https://github.com/rodrfentanes21/backend_wevo"
-        />
-        <ProjectCard
-          title="freeCodeCamp Projects"
-          language="Vanilla HTML and CSS"
-          content="Projects made in order to get the freeCodeCamp Responsive Web Design Certification."
-          gitHubLink="https://github.com/rodrfentanes21/fccprojects"
         />
         <ProjectCard
           title="This Portfolio"

@@ -6,7 +6,7 @@ export default function HamburgerDisplay(props: any) {
     <div className="z-50 w-full h-screen bg-black fixed top-0 left-0 flex flex-col align-middle items-center gap-6">
       <div className="w-[100%] z-50 mx-auto bg-transparent flex flex-row absolute top-0 justify-between lg:justify-center items-center align-middle py-5">
         <a href="/home" className=" select-none flex items-center pl-5">
-          Rodrigo Fentanes
+          Rodrigo Touriño
         </a>
         <button className="pr-5" onClick={() => props.setTrigger(false)}>
           <svg

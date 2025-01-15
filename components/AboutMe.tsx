@@ -51,40 +51,47 @@ export default function AboutMe() {
           initial={{ opacity: 0 }}
           animate={animation2}
         >
-          I am a 22-year-old software engineer currently on the 6th semester of
-          my Computer Science Major. My first programming experience was at the
-          age of 15, when, since I enjoyed a lot using the computer, my father
-          asked for me to learn a little about SQL in order to help him with a
-          new task he was having a hard time with at his job. Since then, I have
-          expanded my knowledge and skills in various programming languages and
+          I am a 24-year-old software engineer and recent Computer Science
+          graduate from PUC Minas Gerais. My programming journey began at 15
+          when my father introduced me to SQL to assist with a task at his job.
+          That small start sparked a passion that evolved into a professional
+          career, built on a strong foundation in multiple programming languages
+          and technologies.
+          <br />
+          Currently, I have over three years of experience in full-stack web and
+          mobile development. At SOFEX, I led the development of a
+          production-ready React Native application, enhancing user satisfaction
+          through performance optimizations. I also contributed to backend
+          modularity, cost reductions, and improved team productivity. As a
+          freelance developer for LINK LTDA and Privilege Construtora, I honed
+          my skills in designing scalable dashboards and implementing secure web
+          solutions.
+          <br />
+          I deeply value collaboration in software engineering, as teamwork
+          enriches problem-solving and fosters innovation. My self-taught
+          beginnings, paired with academic achievements, have made me adaptable
+          and resourceful, enabling me to quickly learn new tools and
           technologies.
           <br />
-          One thing I love about software engineering is the collaborative
-          aspect. I am a strong believer in the importance of teamwork and I
-          truly enjoy working in a team environment. I find that collaborating
-          with others brings fresh perspectives, challenges my ideas, and
-          ultimately leads to better outcomes. As a self-taught programmer, I
-          believe I have developed strong problem-solving skills and have become
-          a fast learner. Although my academic studies have been an essential
-          part of my growth as a software engineer, I believe that my
-          self-taught approach has given me the ability to be adaptable,
-          innovative, and resourceful.
-          <br />
-          Please take a look at my portfolio to get a better idea of the
-          projects I have worked on and the skills I have developed. I am always
-          eager to take on new challenges and work on exciting projects with
-          other passionate developers.
+          Explore my portfolio to see the projects I&apos;ve worked on and my
+          enthusiasm for innovative solutions. I am eager to take on new
+          challenges and collaborate with other passionate developers.
         </motion.p>
       </div>
       <motion.a
         initial={{ opacity: 0 }}
-        target="__blank" href="https://github.com/rodrfentanes21"
+        target="__blank"
+        href="https://github.com/rodrfentanes21"
         animate={animation2}
         className=" bg-gradient-to-br from-[#6366f1] via-[#4e92f5] to-[#38bdf8] rounded-full w-72 lg:w-96 aspect-square grid place-items-center"
       >
-        <p className=" rounded-full w-[98%] aspect-square grid place-items-center bg-black text-center">
-          click here to see my GitHub
-        </p>
+        <Image
+          src="/pfp_1.jpeg"
+          alt="Profile Picture"
+          width={300}
+          height={300}
+          className="rounded-full w-[98%]"
+        />
       </motion.a>
     </section>
   );

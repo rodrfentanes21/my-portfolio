@@ -36,16 +36,33 @@ export default function Contact() {
       >
         <h5>Contact Me</h5>
         <p className="text-sm lg:text-base pt-5 font-normal w-2/3">
-          I&#39;m looking for opportunities to work as a developer, mainly as a
-          Front end or Full Stack Engineer. <br /> 
-          Thanks for scrolling through my portfolio and taking your time to view
-          some of my projects.
+          I&#39;m looking for opportunities to work as a Software Engineer,
+          Mobile Developer, Front End Developer, Back End Developer, or Full
+          Stack Developer.
         </p>
-        <p className="text-sm lg:text-base pt-5 font-normal w-2/3">Click any of the cards below to contact me using the preferred method. (I&#39;ll try to answer ASAP).</p>
+        <p className="text-sm lg:text-base pt-5 font-normal w-2/3">
+          Click any of the cards below to contact me using the preferred method.
+          (I&#39;ll try to answer ASAP).
+        </p>
         <div className="pt-5 flex flex-col lg:flex-row justify-center items-center gap-5">
-          <ContactCard title="Phone" link="tel:+55(31)98633-0533" svg="phone" aditional="+55 (31) 98633-0533"/>
-          <ContactCard title="LinkedIn" link="https://www.linkedin.com/in/rodrfentanes/" svg="linkedin" aditional="Rodrigo Fentanes"/>
-          <ContactCard title="Email" link="mailto:fentanesrodrigo@gmail.com" svg="email" aditional="fentanesrodrigo@gmail.com"/>
+          <ContactCard
+            title="Phone"
+            link="tel:+55(31)98633-0533"
+            svg="phone"
+            aditional="+55 (31) 98633-0533"
+          />
+          <ContactCard
+            title="LinkedIn"
+            link="https://www.linkedin.com/in/rodrfentanes/"
+            svg="linkedin"
+            aditional="Rodrigo Touriño"
+          />
+          <ContactCard
+            title="Email"
+            link="mailto:rodrigotourinogoncalves@gmail.com"
+            svg="email"
+            aditional="rodrigotourinogoncalves@gmail.com"
+          />
         </div>
       </motion.div>
     </section>
